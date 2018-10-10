@@ -9,6 +9,6 @@
   "author": "Christian Broberg",
   "license": "MIT",
   "dependencies": {
-    "mqttalk": "0.0.21"
+    "mqttalk": "0.0.23"
   }
 }

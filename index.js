@@ -1,18 +1,17 @@
 var mqttalk = require('mqttalk')
 // var module = require('mqttalk/lib/module')
 
-const jsonPut = mqttalk.jsonPut
-const jsonGet = mqttalk.jsonGet
+const jsonToObject = mqttalk.jsonToObject
+const jsonFromObject = mqttalk.jsonFromObject
 
 const payload = {
-		id: 1,
-		status: 'online',
-		timestamp: Date.now()
-	}
+	id: 1,
+	status: 'online',
+	timestamp: Date.now()
+}
 
-let json = jsonPut(payload)
-// let obj = jsonGet(json)
+let json = jsonFromObject(payload)
+let obj = jsonToObject(json)
 
 console.log(json)
-// console.log(obj)
-
+console.log(obj)
