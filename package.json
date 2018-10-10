@@ -1,0 +1,14 @@
+{
+  "name": "test-mqttalk",
+  "version": "1.0.0",
+  "description": "Test mqttalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Broberg",
+  "license": "MIT",
+  "dependencies": {
+    "mqttalk": "0.0.21"
+  }
+}
